@@ -73,10 +73,10 @@ for linha in tabela.index:
 
     #obs
     obs = tabela.loc[linha, "obs"]
-    if not pd.isna(obs):
-        py.write(obs)
-    else:
+    if pd.isna(obs):
         py.press('tab')
+    else:
+        py.write(obs)
 
     #cadastrar e voltar pro inicio da página
     py.press('enter')
