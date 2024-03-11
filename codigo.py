@@ -81,4 +81,4 @@ for linha in tabela.index:
     #cadastrar e voltar pro inicio da página
     py.press('enter')
     py.scroll(5000)
-    py.click(x=1518, y=263)
+    py.click(x=214, y=231)
