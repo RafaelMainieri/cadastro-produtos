@@ -8,7 +8,7 @@ As adaptações necessárias a se fazer para que o código funcione para sua emp
 - Importar a base de dados a ser utilizada (linha 39); 
 - Alterar os nomes das colunas e se preferível, adicionar algum tratamento específico para o sistema da empresa (linha 50 a 79);
 ## Observações
-Se for de sua preferência, é possível modificar o py.press(‘tab’) para py.click(x=, y=), porém os valores do x e y teriam que ser mudados de acordo com o tamanho da tela, resolução ou até mesmo um monitor de modelo diferente.
+Se for de sua preferência, é possível modificar o py.press(‘tab’) para py.click(x=, y=), porém os valores do x e y teriam que ser mudados de acordo com o tamanho da tela, resolução ou até mesmo um monitor de modelo diferente.<br>
 A biblioteca time foi utilizada apenas para garantir o carregamento da aba e do site de forma que não corra o risco de dar algum bug no código.
 
  
