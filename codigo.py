@@ -62,7 +62,7 @@ for linha in tabela.index:
     #categoria
     py.write(str(tabela.loc[linha, "categoria"]))
     py.press('tab')
-
+    
     #preco
     py.write(str(tabela.loc[linha, "preco_unitario"]))
     py.press('tab')
@@ -81,4 +81,4 @@ for linha in tabela.index:
     #cadastrar e voltar pro inicio da página
     py.press('enter')
     py.scroll(5000)
-    py.click(x=214, y=231)
+    py.click(x=214, y=231)   
